@@ -76,6 +76,13 @@ public class Graph {
 		}
 	}
 	
+	
+	/*
+	* Why this works:
+	* There exists graphs for which this method would return the wrong answer
+	* However, usually they are very specific cases. 
+	* For instance this would probably work for all real world maps.
+	*/
 	public int nColorable(){
 		
 		if(this.nodes.size()==1){

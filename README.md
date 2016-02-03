@@ -1,2 +1,3 @@
 # GraphTheory
-Code I created to explore the properties of graphs
+
+The Graph class has the Node Class as its elements, and the Graph Class can then perform operations on itself.
